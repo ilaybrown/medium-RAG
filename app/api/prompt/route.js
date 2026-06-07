@@ -12,7 +12,7 @@ const PINECONE_NAMESPACE = process.env.PINECONE_NAMESPACE || 'final';
 const EMBEDDING_MODEL = '4UHRUIN-text-embedding-3-small';
 const CHAT_MODEL = '4UHRUIN-gpt-5-mini';
 
-const TOP_K = 30;
+const TOP_K = 15;
 
 const SYSTEM_PROMPT = `
 You are a Medium-article assistant that answers questions strictly and only based on the Medium articles dataset context provided to you (metadata and article passages). You must not use any external knowledge, the open internet, or information that is not explicitly contained in the retrieved context. If the answer cannot be determined from the provided context, respond: “I don’t know based on the provided Medium articles data.”
