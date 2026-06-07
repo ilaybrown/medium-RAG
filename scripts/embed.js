@@ -33,7 +33,7 @@ const STEP_CHARS = CHUNK_CHARS - OVERLAP_CHARS;
 const CSV_PATH = './data/medium-english-50mb.csv';
 const EMBEDDING_MODEL = '4UHRUIN-text-embedding-3-small';
 
-const START_ARTICLE_INDEX = 1601;
+const START_ARTICLE_INDEX = 0;
 const ARTICLE_LIMIT = null;
 
 function cleanText(value) {
